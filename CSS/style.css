@@ -24,12 +24,13 @@ body {
 }
 
 #player {
-  width: 40px;
-  height: 40px;
-  background: green;
+  width: 60px;      /* ajuste ao tamanho do sprite */
+  height: 30px;
+  background: url('../assets/images/f22.png') no-repeat center/contain;
   position: absolute;
   bottom: 0;
   left: 50px;
+  transform: rotate(90deg); /* rotaciona 90 graus para a direita */
 }
 
 #obstacle {

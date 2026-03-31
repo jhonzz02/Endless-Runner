@@ -12,6 +12,20 @@
     <div id="game">
         <div id="player"></div>
         <div id="obstacle"></div>
+        <div id="score">Score: 0</div>
+        <div id="game-over" class="hidden">
+            <p id="final-score">Game Over</p>
+            <p id="best-score"></p>
+            <button id="restart-btn">Restart</button>
+        </div>
+        <div id="pause-menu" class="hidden">
+            <p>Jogo em pausa</p>
+            <p id="pause-score">Score: 0</p>
+            <p id="pause-best">High Score: 0</p>
+            <button id="pause-restart-btn">Reiniciar (confirmação)</button>
+            <button id="pause-resume-btn">Retomar</button>
+        </div>
+        <p id="pause-countdown" class="hidden"></p>
     </div>
 </body>
 <script src="JS/script.js"></script>
